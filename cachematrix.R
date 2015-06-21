@@ -43,3 +43,6 @@ b
 inv <-cachesolve(b)
 l <- a %*% inv
 l
+
+# Acknowledgement- help was taken from the following stackoverflow page-
+# http://stackoverflow.com/questions/24157188/error-in-xgetinverse-operator-is-invalid-for-atomic-vectors
