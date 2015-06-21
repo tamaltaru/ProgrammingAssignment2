@@ -1,4 +1,4 @@
-## the fonction takes a matrix and keps its matrix in cache, if called repeatedly, 
+## the function takes a matrix and keeps its matrix in cache, if called repeatedly, 
 ## it tells that it's getting the data from cache without repeatative calculation
 
 ## This function makes the inverse and stores it in the cache.
@@ -18,8 +18,8 @@ makecacheMatrix <- function(x= matrix()) {
 }
 
 ##########################################################
-# this function compares the exsiting condition andecides wheather it need to calculate again 
-#or it can pass the matrix stored.
+# this function compares the exsiting condition and decides whether it needs to recalculate
+# or it can pass the matrix stored.
 
 cachesolve <- function(x, ...) {
   inmat <- x$getmat()
